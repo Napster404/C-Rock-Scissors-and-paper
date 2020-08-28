@@ -12,7 +12,7 @@ class player
 	player()
 	{
 		cout<<"Enter your Name\n";
-		cin>>name;
+		getline(cin, name);
 		choice = -1;
 	}
 
